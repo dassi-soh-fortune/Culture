@@ -1,0 +1,42 @@
+/* header component */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  width: 100%;
+  top: 0;
+  background-color: var(--primary-color-dark);
+  align-items: center;
+  height: 8%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+}
+
+.logo img {
+  padding-top: 0.5rem;
+  height: 50px;
+  width: auto;
+}
+/* .navbar-center {
+  display: flex;
+} */
+
+
+.navbar-link {
+  margin: 0 10px;
+  color: var(--neutral-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.navbar-link:hover{
+color: var(--main-color-blue);
+border-bottom: 2px solid var(--main-color-blue);
+}
+/* Header component ends here */
